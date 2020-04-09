@@ -1,0 +1,157 @@
+.footer {
+  padding-top: 57px;
+  padding-bottom: 15px;
+
+  font-size: 16px;
+  letter-spacing: -0.32px;
+
+  background-color: #00122f;
+  color: #ffffff;
+}
+
+.footer-nav {
+  float: left;
+
+  margin-right: 175px;
+}
+
+.footer-nav-list {
+  margin: 0;
+  padding: 0;
+
+  column-count: 2;
+
+  list-style-type: none;
+}
+
+.footer-nav-item {
+  margin-bottom: 12px;
+  margin-right: 44px;
+}
+
+.footer-nav-item:nth-child(n+5) {
+  margin-right: 0;
+}
+
+.footer-center {
+  float: left;
+
+  padding-top: 3px;
+}
+
+.footer-logo {
+  margin-bottom: 15px;
+}
+
+.about {
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+.about-item {
+  margin-bottom: 11px;
+}
+
+.about-item:last-child {
+  margin-bottom: 0;
+}
+
+.footer-right {
+  float: right;
+}
+
+.social-networks {
+  margin: 0;
+  margin-bottom: 37px;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+.social-networks-item {
+  display: inline-block;
+
+  margin-right: 17px;
+}
+
+.social-networks-item:last-child {
+  margin-right: 0;
+}
+
+.social-network-link {
+  display: block;
+
+  width: 40px;
+  height: 40px;
+
+
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.vkontakte {
+  background-image: url(../img/vk.png);
+}
+
+.facebook {
+  background-image: url(../img/facebook-logo.png);
+}
+
+.twitter {
+  background-image: url(../img/twitter-logo.png);
+}
+
+.instagram {
+  background-image: url(../img/instagram.png);
+}
+
+.contacts {
+  font-size: 18px;
+  font-style: normal;
+}
+
+.contacts-list {
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+.contacts-item {
+  margin-bottom: 24px;
+}
+
+ .contacts-item-link {
+  display: block;
+
+  padding-left: 35px;
+
+  background-position: 0 45%;
+  background-repeat: no-repeat;
+ }
+
+.phone {
+  background-image: url(../img/call-answer.png);
+}
+
+.mail {
+  background-image: url(../img/mail.png);
+}
+
+.copyright {
+  margin: 0;
+  margin-top: 30px;
+  padding-top: 18px;
+
+  text-align: center;
+  font-size: 14px;
+
+  color: #727882;
+
+  border-top: 1px solid #26354e;
+}

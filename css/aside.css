@@ -1,0 +1,12 @@
+.column-right {
+        float: right;
+        width: 250px;
+    }
+
+        .column-right img {
+            margin-bottom: 16px;
+        }
+
+        .column-right img:last-child {
+            margin-bottom: 0;
+        }

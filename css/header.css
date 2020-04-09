@@ -1,0 +1,158 @@
+.page-header {
+  padding-bottom: 25px;
+
+  font-size: 16px;
+  letter-spacing: -0.32px;
+}
+
+.black-bar {
+  padding-top: 18px;
+  padding-bottom: 17px;
+
+  color: #ffffff;
+  background-color: #00122f;
+}
+
+.title {
+  float: left;
+
+  margin: 0;
+
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.32px;
+}
+
+.title-link {
+  text-decoration: underline;
+}
+
+.black-bar-datetime {
+  float: right;
+}
+
+.header-center {
+  margin-bottom: 39px;
+  padding-top: 40px;
+}
+
+.header-logo,
+.list-city,
+.header-datetime,
+.header-weather {
+  display: inline-block;
+
+  vertical-align: middle;
+
+  color: #91919f;
+}
+
+.header-logo {
+  margin-right: 56px;
+}
+
+.list-city {
+  margin-right: 44px;
+  padding-right: 18px;
+
+  color: #448ccb;
+
+  background-image: url("../img/down-arrow.png");
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.city {
+  padding-bottom: 2px;
+
+  border-bottom: 1px dashed;
+}
+
+.header-datetime {
+  margin-right: 25px;
+}
+
+.header-date {
+  margin-right: 30px;
+}
+
+.header-time {
+  padding-left: 25px;
+
+  background-image: url("../img/clock.png");
+  background-repeat: no-repeat;
+}
+
+.header-weather {
+  padding-left: 40px;
+
+  line-height: 22px;
+
+  background-image: url("../img/cloudy.png");
+  background-repeat: no-repeat;
+  background-position: 0 48%;
+}
+
+.header-search {
+  position: relative;
+
+  float: right;
+}
+
+.search {
+  width: 320px;
+  height: 45px;
+  padding-left: 20px;
+  padding-right: 40px;
+
+  font-size: 14px;
+
+  border: none;
+  border-radius: 23px;
+  background-color: #ebebeb;
+}
+
+.search-btn {
+  position: absolute;
+  right: 20px;
+  top: 13px;
+
+  width: 16px;
+  height: 16px;
+
+  background-image: url("../img/icon-search.png");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  border: none;
+}
+
+.header-nav-list {
+  margin: 0;
+  padding: 0;
+
+  font-size: 0;
+
+  list-style-type: none;
+}
+
+.header-nav-item {
+  position: relative;
+
+  display: inline-block;
+  margin-right: 42px;
+
+  font-size: 16px;
+}
+
+.header-nav-item::after {
+  position: absolute;
+  right: -25px;
+
+  color: #e5e5e8;
+
+  content: "/";
+}
+
+.header-nav-item:last-child::after {
+  display: none;
+}

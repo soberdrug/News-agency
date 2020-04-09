@@ -1,0 +1,55 @@
+html {
+  box-sizing: border-box; /* в ширину элемента включается padding и border */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; /* все элементы наследуют box-sizing от родителя */
+}
+
+body {
+  min-width: 1000px; /* задаёёт минимальную ширину страницы. если браузер сжать до ширины меньшей 1000px, то появится полоса прокрутки */
+  margin: 0; /* убирает все внешние отступы */
+  background-color: #ffffff; /* задаёт цвет фона для страницы */
+  font-family: "Arial", sans-serif; /* задаёт шрифт для страницы */
+  font-size: 14px; /* задаёт размер шрифта для страницы */
+  line-height: 20px; /* задаёт высоту строки для страницы */
+  word-wrap: break-word;
+  color: #000000; /* задаёт цвет текста для страницы */
+}
+
+body.modal-active {
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%; /* задаёт максимальный размер изображений равный размеру родителя */
+}
+
+a {
+  text-decoration: none; /* убирает подчёркивание у ссылок */
+  color: inherit;  /* цвет текста ссылок наследуется от родителя */
+}
+
+.visually-hidden { /* прячет скрытый заголовок */
+  position: absolute !important; /* вырывает заголовок из потока */
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);  /* обрезает область показа содержимого */
+  padding: 0 !important; /* обнуляет внутренние отступы */
+  border: 0 !important; /* обнуляет границы */
+  height: 1px !important; /* высота */
+  width: 1px !important; /* ширина */
+  overflow: hidden; /* скрывает то, что выходит за пределы элемента */
+}
+
+.clearfix::after { /* убирает схлопнувшиеся блоки из-за float */
+  content: ""; /* формирует пустой контент */
+  display: table; /* делает этот контент в виде таблицы */
+  clear: both; /* очищает float с двух сторон */
+}
+
+.fixed-container {
+  width: 1000px;
+  margin: 0 auto;
+}

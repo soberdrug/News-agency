@@ -1,0 +1,46 @@
+.tabs-triggers-list {
+  margin: 0;
+  padding: 0;
+
+  font-size: 0;
+
+  list-style: none;
+}
+
+.triggers-list-item {
+  display: inline-block;
+
+  width: 50%;
+
+  text-align: center;
+  font-size: 18px;
+}
+
+.tabs-triggers-item {
+  display: inline-block;
+
+  padding: 15px 0;
+
+  width: 100%;
+  
+  opacity: .6;
+}
+
+.tabs-content-item {
+  display: none;
+  padding: 20px;
+
+  background-color: #00122f;
+  color: #ffffff;
+}
+
+.triggers-item-active {
+  background-color: #00122f;
+  color: #ffffff;
+
+  opacity: 1;
+}
+
+.content-item-active {
+  display: block;
+}
